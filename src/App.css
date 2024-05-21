@@ -1,0 +1,362 @@
+/* font-family: "Miniver", cursive;
+font-family: "Sedan SC", serif;
+ */
+
+/**************************************
+ ---------------------------------------
+             table of content 
+----------------------------------------
+*****************************************
+1. common css
+    a. common css
+    b. 
+2. Home Page
+3. Menu Page
+4. Book a Table Page
+
+
+
+***************************************
+-------------------------------------------- */
+
+/*=============================
+    1. common css 
+================================ */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.button,
+.nanbar a {
+    font-family: "Sedan SC", serif;
+}
+
+
+/*=============================
+    2. Home Page
+================================ */
+
+.button-89 {
+    --b: 3px;
+    /* border thickness */
+    --s: .45em;
+    /* size of the corner */
+    --color: #fff;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+
+    border: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-family: "Sedan SC", serif;
+}
+
+.button-89:hover,
+.button-89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+}
+
+.button-89:active {
+    background: var(--color);
+    color: #fff;
+}
+
+
+.home-bg1 {
+    background-image: url(./assets/home/h1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home-bg2 {
+    background-image: url(./assets/home/h2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home-bg3 {
+    background-image: url(./assets/home/h3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home-bg4 {
+    background-image: url(./assets/home/h4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    font-family: "Sedan SC", serif;
+    font-size: clamp(3rem, 7.3vw, 9rem) !important;
+    line-height: 1;
+}
+
+
+/*=============================
+    3. Menu Page
+================================ */
+.menu-bg {
+    background-image: url(./assets/menu/menu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.react-tabs__tab--selected {
+    background-color: burlywood !important;
+    border-radius: 8px !important;
+    border-color: khaki !important;
+
+}
+
+.react-tabs__tab--selected:focus {
+    outline: none !important;
+    box-shadow: rgba(238, 135, 235, 0.35) 0px 5px 15px !important;
+}
+
+
+/*=============================
+    4. Book a Table Page
+================================ */
+
+
+.table-bg {
+    background-image: url(./assets/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.table-book {
+    background-color: #ffffff44;
+    border-radius: 18px;
+    border: 1px dotted #fff;
+    margin: 0 auto;
+}
+
+.table-book form {
+    width: 100%;
+    background: #000;
+    border-radius: 18px;
+}
+
+.table-book input {
+    background: #121212;
+    margin: 10px 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 18px 15px;
+    border-radius: 8px;
+    font-size: 11px;
+    border: 1px solid rgba(192, 192, 192, 0.154);
+}
+
+.table-book input:focus {
+    outline: none;
+    color: #da0726;
+}
+
+.table-book input[type='submit'] {
+    background-color: #fff;
+    color: #000;
+    font-family: "Sedan SC", serif;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+.table-book input[type='submit']:hover {
+    color: #da0726;
+    border-color: #da0726;
+    background-color: transparent;
+}
+
+
+/*=============================
+    Blog Page
+================================ */
+.blog-post h3 {
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-post h3:hover {
+    color: #da0726;
+}
+
+
+
+
+
+
+
+/* about us  
+===================================*/
+
+.about-bg {
+    background-image: url(./assets/about/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ani2 {
+    animation: ani 1s linear 2s infinite alternate;
+}
+
+@keyframes ani {
+    0% {
+        font-size: 13px;
+        margin-bottom: -15px;
+    }
+    50% {
+        font-size: 48px;
+        margin-bottom: -7px;
+    }
+
+    100% {
+        font-size: 80px;
+        margin-bottom: 0;
+    }
+}
+
+
+/* contact us  */
+.contact-bg {
+    background-image: url(./assets/contact/c1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* blog page  */
+.blog-bg {
+    background-image: url(./assets/blog/b1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* single blog page  */
+.single-blog-bg {
+    background-image: url(./assets/blog/b2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* login  */
+.login-form {
+    width: 85%;
+    margin: 30px auto;
+    border-radius: 18px;
+    box-shadow: 0 3px 6px rgba(245, 242, 242, 0.4), 0 23px 16px rgba(244, 240, 240, 0.2);
+    padding: 50px 0;
+}
+
+.login-form input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 19px 0;
+    /* background-color: #121212; */
+    background-color: transparent;
+    padding: 25px 25px 8px 25px;
+    text-align: center;
+    /* border-bottom: 1px solid red; */
+    box-shadow: 0 2px .8px rgb(218, 7, 38);
+    display: block;
+    font-size: 12px;
+}
+
+.login-form input[type='submit'] {
+    width: 30%;
+    background-color: transparent;
+    color: #da0726;
+    border-radius: 28px;
+    border: 2px solid rgb(218, 7, 38);
+    padding: 9px 15px;
+    margin: 30px auto;
+    box-shadow: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.login-form input[type='submit']:hover {
+    background-color: rgb(218, 7, 38);
+    color: #fff;
+
+}
+
+
+
+.login-form input:focus {
+    outline: none;
+    color:  rgb(218, 7, 38);
+}
+
+.booking {
+    border-top-right-radius: 700px;
+}
+
+.leaflet-container {
+    overflow: hidden;
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: cover;
+}
+.leaflet-container img {
+    width: 700px !important;
+    height: 100% !important;
+}
+
+
+
+
+
+
+
+.menu-container{
+
+}

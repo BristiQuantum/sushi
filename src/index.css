@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Miniver&family=Sedan+SC&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: "Miniver", cursive;
+font-family: "Sedan SC", serif;
+ */
+
+/**************************************
+ ---------------------------------------
+             table of content 
+----------------------------------------
+*****************************************
+1. common css
+2. Home Page
+3. Menu Page
+4. Book Table Page
+
+
+
+***************************************
+-------------------------------------------- */
+
+
+
+@layer components {
+
+    /* 1. common css  */
+    .img-size {
+        @apply w-full h-full rounded-2xl
+    }
+
+    .h4 {
+        @apply text-[15px] sm:text-2xl text-nowrap
+    }
+    .h3 {
+        @apply text-4xl text-center mb-4
+    }
+    .p {
+        @apply text-[9px] sm:text-xs
+    }
+
+    .flex-home {
+        @apply w-full sm:h-screen flex flex-col sm:flex-row p-3 gap-3
+    }
+
+    .flex-left {
+        @apply rounded-xl basis-[300px] sm:basis-3/4 flex items-end p-4 sm:p-16
+    }
+
+    .flex-right {
+        @apply rounded-xl basis-[400px] sm:basis-1/4 flex gap-3 flex-col
+    }
+
+    .right-flex {
+        @apply rounded-xl sm:basis-3/4 lg:basis-1/2 flex justify-center py-9 sm:py-0 sm:overflow-y-scroll
+    }
+    .flex-right-side {
+        @apply rounded-xl sm:basis-3/4 lg:basis-1/2 py-9 sm:py-0 sm:overflow-y-scroll
+    }
+    .title {
+        @apply divider after:bg-white my-10 sm:w-1/2 mx-auto before:bg-white text-xl sm:text-3xl
+    }
+
+    /* 2. Home  */
+    .home-link-icon {
+        @apply rounded-full border p-1 text-2xl ml-3 border-white
+    }
+
+    .home-link-container {
+        @apply rounded-xl w-full h-[33.33%] relative
+    }
+
+    /* nav bar 
+    ====================================== */
+    .nanbar {
+        @apply fixed w-fit sm:w-[50%] lg:w-[45%] xl:w-[35%] top-6 left-3 lg:left-14 rounded-full text-nowrap
+    }
+    .nav-container {
+        @apply navbar md:bg-[#0000009f] rounded-full px-5
+    }
+    .nav-btn {
+        @apply btn btn-ghost btn-circle border border-gray-600 rounded-lg bg-red-950 md:bg-[#0000006f] mr-1
+    }
+    .menu-container {
+        @apply menu  dropdown-content mt-3 text-xl shadow bg-black rounded-box w-96 z-40 p-12 text-gray-400
+    }
+    .a-hover {
+        @apply hover:text-rose-500
+    }
+    .mid-nav {
+        @apply hidden md:flex justify-between w-full items-center pr-4
+    }
+    .mid-nav-a {
+        @apply text-xs flex items-center  transition-all ease-in-out duration-300 hover:text-rose-500 mx-2 
+    }
+    .nav-book-btn{
+        @apply text-xs bg-[#000000ad] py-2 rounded-full border border-gray-500 px-7 shadow-2xl transition-all ease-in-out duration-300 hover:text-rose-500 hover:border-rose-500 hover:bg-[#000000fc]
+    }
+    /* 3. Menu Page  
+    ===============================*/
+    .tab-head {
+        @apply text-center flex justify-center items-center
+    }
+
+    .tab-sub-head {
+        @apply border border-gray-500 py-2 px-5 m-1 sm:m-2 rounded-lg text-nowrap text-[10px] sm:text-sm
+    }
+
+    .menu-cart {
+        @apply flex items-center gap-4 sm:px-9
+    }
+
+    .menu-img-box {
+        @apply min-w-9 sm:w-36 h-20
+    }
+
+    .menu-dacoration {
+        @apply sm:flex-grow flex items-center justify-start space-x-1
+    }
+
+    .menu-left {
+        @apply rounded-xl basis-[300px] sm:basis-1/4 lg:basis-1/2 flex items-end p-4 sm:p-16
+    }
+
+
+    /* Table Booking Page 
+=============================== */
+    /* table bokkig form  */
+    .table-book {
+        @apply lg:p-6 lg:w-[85%] 
+    }
+
+    /* bokking button  */
+    .booking {
+        @apply flex justify-center items-center border border-[#da0726] md:w-1/2 mx-7 md:mx-auto text-[#da0726] transition-all duration-300 ease-in-out hover:bg-[#da0726] hover:text-white mt-10 hover:rounded-full text-nowrap;
+    }
+
+    /* cart page 
+    ==================================== */
+    .cart-title{
+        @apply font-bold text-[#6bd9fb] text-sm md:text-lg inline-block mr-3
+    }
+    .cart-btn{
+        @apply bg-[#da0726] text-white flex justify-center items-center py-1 md:py-3 px-4 md:px-7 mt-6 md:mt-0 rounded-full gap-5 border border-[#da0726] transition-all ease-in-out duration-300 hover:bg-transparent hover:text-[#da0726] ml-auto
+    }
+    .date-time {
+        @apply flex items-center gap-7 text-xs text-[#da0726];
+    }
+    .cart-container{
+        @apply border-b border-[#da0726] pb-3 text-left pt-9 md:pt-0
+    }
+
+    /* footer 
+============================= */
+    .footer-section {
+        @apply border-t decoration-dotted border-red-400 mt-24 block pt-1;
+    }
+
+    .footer-container {
+        @apply footer border-t border-gray-500 items-center pt-4 px-3;
+    }
+
+    .footer-icon {
+        @apply grid-flow-col gap-4 md:place-self-center md:justify-self-end;
+    }
+
+}

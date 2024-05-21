@@ -1,0 +1,137 @@
+{
+    "menu": {
+      "maki": [
+        {
+          "name": "California Maki",
+          "price": 8.99,
+          "description": "Crab, avocado, and cucumber",
+          "photo_url": "https://example.com/california_maki.jpg"
+        },
+        {
+          "name": "Spicy Tuna Maki",
+          "price": 9.99,
+          "description": "Tuna, spicy mayo, and cucumber",
+          "photo_url": "https://example.com/spicy_tuna_maki.jpg"
+        },
+        {
+          "name": "Spicy Tuna Maki Maki",
+          "price": 10.99,
+          "description": "Tuna, spicy mayo, and rice rolled in seaweed",
+          "photo_url": "https://example.com/spicy_tuna_maki_maki.jpg"
+        },
+        {
+          "name": "Mango Maki",
+          "price": 11.99,
+          "description": "Fresh mango, avocado, and cucumber",
+          "photo_url": "https://example.com/mango_maki.jpg"
+        },
+        {
+          "name": "Avocado Maki",
+          "price": 9.49,
+          "description": "Fresh avocado wrapped in seaweed and rice",
+          "photo_url": "https://example.com/avocado_maki.jpg"
+        },
+        {
+          "name": "Salmon Maki",
+          "price": 12.49,
+          "description": "Fresh salmon, avocado, and cucumber",
+          "photo_url": "https://example.com/salmon_maki.jpg"
+        },
+        {
+          "name": "Vegetable Maki",
+          "price": 8.29,
+          "description": "Assorted fresh vegetables wrapped in seaweed and rice",
+          "photo_url": "https://example.com/vegetable_maki.jpg"
+        }
+      ],
+      "uramaki": [
+        {
+          "name": "Dragon Uramaki",
+          "price": 14.99,
+          "description": "Shrimp tempura, cucumber, topped with avocado and eel sauce",
+          "photo_url": "https://example.com/dragon_uramaki.jpg"
+        },
+        {
+          "name": "Rainbow Uramaki",
+          "price": 13.99,
+          "description": "California roll topped with assorted fish and avocado",
+          "photo_url": "https://example.com/rainbow_uramaki.jpg"
+        },
+        {
+          "name": "Spider Uramaki",
+          "price": 15.99,
+          "description": "Soft-shell crab, avocado, cucumber, and spicy mayo",
+          "photo_url": "https://example.com/spider_uramaki.jpg"
+        },
+        {
+          "name": "Tempura Shrimp Uramaki",
+          "price": 14.29,
+          "description": "Crispy tempura shrimp, avocado, and cucumber",
+          "photo_url": "https://example.com/tempura_shrimp_uramaki.jpg"
+        },
+        {
+          "name": "Philly Uramaki",
+          "price": 14.49,
+          "description": "Smoked salmon, cream cheese, and cucumber",
+          "photo_url": "https://example.com/philly_uramaki.jpg"
+        },
+        {
+          "name": "Tiger Uramaki",
+          "price": 15.49,
+          "description": "Shrimp tempura, spicy tuna, and avocado",
+          "photo_url": "https://example.com/tiger_uramaki.jpg"
+        },
+        {
+          "name": "Crunchy Uramaki",
+          "price": 12.99,
+          "description": "Shrimp tempura, cucumber, topped with tempura flakes and eel sauce",
+          "photo_url": "https://example.com/crunchy_uramaki.jpg"
+        }
+      ],
+      "special_rolls": [
+        {
+          "name": "Volcano Roll",
+          "price": 16.49,
+          "description": "Spicy tuna, cucumber, and avocado topped with spicy crab mix and eel sauce",
+          "photo_url": "https://example.com/volcano_roll.jpg"
+        },
+        {
+          "name": "Caterpillar Roll",
+          "price": 15.79,
+          "description": "Eel, cucumber, topped with avocado slices and eel sauce",
+          "photo_url": "https://example.com/caterpillar_roll.jpg"
+        },
+        {
+          "name": "Dragon Eel Roll",
+          "price": 17.59,
+          "description": "Eel, cucumber, and avocado topped with eel sauce and sesame seeds",
+          "photo_url": "https://example.com/dragon_eel_roll.jpg"
+        },
+        {
+          "name": "Sunset Roll",
+          "price": 14.99,
+          "description": "Tuna, salmon, avocado, and cucumber",
+          "photo_url": "https://example.com/sunset_roll.jpg"
+        },
+        {
+          "name": "Rainforest Roll",
+          "price": 16.79,
+          "description": "Tempura shrimp, cucumber, topped with avocado, mango, and eel sauce",
+          "photo_url": "https://example.com/rainforest_roll.jpg"
+        },
+        {
+          "name": "Golden Dragon Roll",
+          "price": 18.89,
+          "description": "Crab, avocado, and cucumber topped with eel and avocado",
+          "photo_url": "https://example.com/golden_dragon_roll.jpg"
+        },
+        {
+          "name": "King Roll",
+          "price": 19.69,
+          "description": "Shrimp tempura, spicy tuna, avocado, and cucumber topped with seared tuna and eel sauce",
+          "photo_url": "https://example.com/king_roll.jpg"
+        }
+      ]
+    }
+  }
+  
