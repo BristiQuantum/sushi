@@ -79,7 +79,7 @@ const router = createBrowserRouter([
       },
       {
         path: "*",
-        element: <div className='w-full h-screen p-0 m-0 py-9'><img src={img} alt="" className='w-full h-full'/></div>
+        element: <div className=''><img src={img} alt="" className='w-full h-full'/></div>
       }
 
     ]
