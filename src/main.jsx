@@ -20,6 +20,7 @@ import Team from './page/About/Team.jsx';
 import Chef_Recipi from './page/About/Chef_Recipi.jsx';
 import AuthProvider from './Auth/AuthProvider.jsx';
 import Private_Link from './Auth/Private_Link.jsx';
+import img from './assets/404.jpg'
 
 
 const router = createBrowserRouter([
@@ -76,7 +77,10 @@ const router = createBrowserRouter([
         path: "/cart",
         element: <Private_Link><Cart_Page></Cart_Page></Private_Link>,
       },
-
+      {
+        path: "*",
+        element: <div className='w-full h-screen p-0 m-0 py-9'><img src={img} alt="" className='w-full h-full'/></div>
+      }
 
     ]
   },
