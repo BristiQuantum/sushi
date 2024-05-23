@@ -25,7 +25,7 @@ const Book_Table = () => {
             Date: date,
             Time: time,
         }
-        console.log(booking);
+        // console.log(booking);
 
         // mongoDb operation 
         fetch('https://one-sushi-restruent-serverside.onrender.com/booking', {
@@ -37,7 +37,7 @@ const Book_Table = () => {
         })
             .then(response => response.json())
             .then(data => {
-                console.log(data)
+                // console.log(data)
                 if (data.insertedId) {
                     Swal.fire({
                         title: 'success!',
@@ -50,7 +50,7 @@ const Book_Table = () => {
             })
     }
 
-    console.log(user);
+    // console.log(user);
     return (
 
         <div className="flex-home ">

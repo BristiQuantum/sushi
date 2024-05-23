@@ -28,7 +28,7 @@ const Signup = () => {
             .then((userCredential) => {
                 const user = userCredential.user;
 
-                console.log(user);
+                // console.log(user);
                 if (user) {
                     Swal.fire({
                         title: 'success!',
@@ -68,7 +68,7 @@ const Signup = () => {
         googleLogin()
             .then((result) => {
                 const user = result.user;
-                console.log(user);
+                // console.log(user);
 
                 Swal.fire({
                     title: 'success!',
@@ -89,10 +89,13 @@ const Signup = () => {
     // sign up login
     // github login 
     const handleLoginGithub = () => {
+
+
+        
         githubLogin()
             .then((result) => {
                 const user = result.user;
-                console.log(user);
+                // console.log(user);
 
                 Swal.fire({
                     title: 'success!',

@@ -15,7 +15,7 @@ const Menu_Page = () => {
 
 
 
-    console.log(roll);
+    // console.log(roll);
 
     return (
         <div className="flex-home">

@@ -9,7 +9,7 @@ const Cart_Cart = ({ cart, booking, setBooking }) => {
 
 // MongoDB operation 
     const handleBookingCancle =(id)=> {
-        console.log(id);
+        // console.log(id);
 
         Swal.fire({
             title: "Are you sure?",
@@ -28,7 +28,7 @@ const Cart_Cart = ({ cart, booking, setBooking }) => {
                   })
                   .then(response => response.json())
                   .then(data => {
-                    console.log(data)
+                    // console.log(data)
                     if(data.deletedCount > 0){
                         Swal.fire({
                             title: "Deleted!",

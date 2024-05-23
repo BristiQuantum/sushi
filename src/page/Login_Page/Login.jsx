@@ -35,7 +35,7 @@ const Login = () => {
         login(email, password)
             .then((userCredential) => {
                 const user = userCredential.user;
-                console.log(user);
+                // console.log(user);
                 navigate(from, {replace: true})
 
             })
@@ -53,7 +53,7 @@ const Login = () => {
         googleLogin()
             .then((result) => {
                 const user = result.user;
-                console.log(user);
+                // console.log(user);
 
                 Swal.fire({
                     title: 'success!',
@@ -75,7 +75,7 @@ const Login = () => {
         githubLogin()
             .then((result) => {
                 const user = result.user;
-                console.log(user);
+                // console.log(user);
 
                 Swal.fire({
                     title: 'success!',
@@ -114,7 +114,7 @@ const Login = () => {
 
     }
 
-    console.log(location);
+    // console.log(location);
     return (
         <div className="flex-home ">
             <Helmet><title>Sushi || Login</title></Helmet>
