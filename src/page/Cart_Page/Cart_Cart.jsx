@@ -23,7 +23,7 @@ const Cart_Cart = ({ cart, booking, setBooking }) => {
             if (result.isConfirmed) {
     
                 // mongoDB operation Delete
-                fetch(`https://test-01-cgyo.onrender.com/booking/${id}`, {
+                fetch(`https://one-sushi-restruent-serverside.onrender.com/booking/${id}`, {
                     method: 'DELETE',
                   })
                   .then(response => response.json())

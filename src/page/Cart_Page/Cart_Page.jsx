@@ -12,7 +12,7 @@ const Cart_Page = () => {
     const { user } = useContext(AuthContext)
     const [booking, setBooking] = useState();
 
-    const url = `https://test-01-cgyo.onrender.com/booking?email=${user.email}`
+    const url = `https://one-sushi-restruent-serverside.onrender.com/booking?email=${user.email}`
     useEffect(() => {
         fetch(url)
         .then(res => res.json())

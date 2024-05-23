@@ -28,7 +28,7 @@ const Book_Table = () => {
         console.log(booking);
 
         // mongoDb operation 
-        fetch('https://test-01-cgyo.onrender.com/booking', {
+        fetch('https://one-sushi-restruent-serverside.onrender.com/booking', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

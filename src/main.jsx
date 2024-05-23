@@ -34,7 +34,7 @@ const router = createBrowserRouter([
       {
         path: "/menu",
         element: <Menu_Page></Menu_Page>,
-        loader: () => fetch(`https://test-01-cgyo.onrender.com/menu`)
+        loader: () => fetch(`https://one-sushi-restruent-serverside.onrender.com/menu`)
       },
       {
         path: "/book-table",

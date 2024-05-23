@@ -42,7 +42,7 @@ font-family: "Sedan SC", serif;
     }
 
     .flex-home {
-        @apply w-full sm:h-screen flex flex-col sm:flex-row p-3 gap-3
+        @apply w-full h-screen flex flex-col sm:flex-row p-3 gap-3
     }
 
     .flex-left {
@@ -50,7 +50,7 @@ font-family: "Sedan SC", serif;
     }
 
     .flex-right {
-        @apply rounded-xl basis-[400px] sm:basis-1/4 flex gap-3 flex-col
+        @apply rounded-xl basis-[100%] sm:basis-1/4 flex gap-3 flex-col
     }
 
     .right-flex {
